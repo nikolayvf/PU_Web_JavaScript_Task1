@@ -1,0 +1,19 @@
+.gap{
+    width: 170px;
+    height: 20px;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+    text-align: center;
+}
+.gapLi{
+    border-bottom: 1px dotted black;
+    text-align: center;
+    width: 170px;
+}
+.option{
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-top: 1px solid black;
+    width: 170px;
+    text-align: center;
+}

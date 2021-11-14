@@ -1,0 +1,41 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <h1>Tест за интелигентност</h1>
+    <div id="first-task">
+       
+        <p><i>Задача 1:</i> Чрез влачене, подредете по голмина градовете!</p>
+        <ol>
+            <li id="firstLiGap"  ondrop="drop(event)" ondragover="allowDrop(event)" class="gapLi"> </li>
+            <li id="secondLiGap"  ondrop="drop(event)" ondragover="allowDrop(event)" class="gapLi"> </li>
+            <li id="thirdLiGap"  ondrop="drop(event)" ondragover="allowDrop(event)" class="gapLi"> </li>    
+        </ol>
+        <p id="firstOptionLi" draggable="true" ondragstart="dragStart(event)" class="option">Пловдив</p>
+        <p id="secondOptionLi" draggable="true" ondragstart="dragStart(event)" class="option">София</p>
+        <p id="thirdOptionLi" draggable="true" ondragstart="dragStart(event)" class="option">Варна</p>
+        <button onclick="isTrueFirstTask()">Провери</button>
+        <button onclick="tryAgainFirst()">Отмени</button>
+    </div>
+    <div id="second-task">
+        
+        <p><i>Задача 2:</i> Чрез влачене, преместете думите на правилните им места, за да се образува изречение!</p>
+        <p>За да завършиш ПУ, трябва да знаеш</span>
+        <span id="firstGap"  ondrop="drop(event)" ondragover="allowDrop(event)" class="gap"></span>
+        <span>езици за програмиране като: </span>
+        <span id="secondGap" ondrop="drop(event)" ondragover="allowDrop(event)" class="gap"></span>
+        <p id="firstOption" draggable="true" ondragstart="dragStart(event)" class="option"> много добре </p>
+        <p id="secondOption" draggable="true" ondragstart="dragStart(event)" class="option"> Java, JavaScript, C# и др.</p>
+        <button onclick="isTrueSecondTask()">Провери</button>
+        <button onclick="tryAgain()">Отмени</button>
+    </div>
+    
+
+</body>
+
+</html>
