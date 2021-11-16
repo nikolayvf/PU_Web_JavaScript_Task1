@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style-nikolay.css">
+    <script type="text/javascript" src="script-nikolay.js" defer></script>
+
+
+</head>
+<body>
+
+
+    <div class="image-container">
+        <div id="answer-box">
+            Къде е Уоли (Waldo)? Кликнете на картинката с него.
+        </div>
+        <div class="img-grid"> 
+            <div><img onclick="checkImage(1)" class="img-piece" id ="image_part_001" img src="image_part_001.png" alt=""></div></td>
+            <div><img onclick="checkImage(2)" class="img-piece" id ="image_part_002" img src="image_part_002.png" alt=""></div></td>
+            <div><img onclick="checkImage(3)" class="img-piece" id ="image_part_003" img src="image_part_003.png" alt=""></div></td>
+            <div><img onclick="checkImage(4)" class="img-piece" id ="image_part_004" img src="image_part_004.png" alt=""></div></td>
+            <div><img onclick="checkImage(5)" class="img-piece" id ="image_part_005" img src="image_part_005.png" alt=""></div></td>
+            <div><img onclick="checkImage(6)" class="img-piece" id ="image_part_006" img src="image_part_006.png" alt=""></div></td>
+            <div><img onclick="checkImage(7)" class="img-piece" id ="image_part_007" img src="image_part_007.png"  onclick="imageClick('image_part_007')"></div></td>
+            <div><img onclick="checkImage(8)" class="img-piece" id ="image_part_008" img src="image_part_008.png" alt=""></div></td>
+        </div>
+
+    </div>
+
+    <div >
+        <img id="quiz-img" src="stani-bogat.png" alt="">
+    </div>
+    <div class="container">
+        <div id="question-container" class="hide">
+          <div id="question">Зеленият компютърен код, с който е представена Матрицата в началото на филма, всъщност представлява сканирани:</div>
+          <div id="answer-buttons" class="btn-grid">
+            <button class="btn" id="btn-a" onclick="checkQuizAnswer(1)">A. Глави от Корана</button>
+            <button class="btn" id="btn-b" onclick="checkQuizAnswer(2)">B. Рецепти за суши</button>
+            <button class="btn" id="btn-c" onclick="checkQuizAnswer(3)">С. Глоби за превишена скорост</button>
+            <button class="btn" id="btn-d" onclick="checkQuizAnswer(4)">D. Упътвания за пералня</button>
+          </div>
+        </div>
+
+</body>
+</html>
