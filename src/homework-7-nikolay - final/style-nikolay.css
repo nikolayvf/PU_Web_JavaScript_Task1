@@ -1,0 +1,110 @@
+.img-grid {
+    padding: 10px;
+    display: grid;
+     grid-template-columns: repeat(4, auto);
+     width: 175px;
+    height: 460px;
+    margin: 0px;
+    padding: 0px;
+}
+.img-piece{
+    height: 230px;
+    margin-top: -5px;  /*Разделяше ми горната и долната половина без това. Не разбрах от къде*/
+    padding: 0px;
+    width: 175px;
+}
+
+#answer-box{
+    background-color: #B5E1E4;
+    padding: 20px;
+    width: 660px;
+     max-width: 80%;
+}
+#image_part_001{
+  background: url('images/image_part_001.png');
+}
+#image_part_001:hover{
+  background: url('images/confused_steven.gif');
+}
+
+
+#image_part_002{
+  background: url('images/image_part_002.png');
+}
+#image_part_003{
+  background: url('images/image_part_003.png');
+}
+#image_part_004{
+  background: url('images/image_part_004.png');
+}
+#image_part_005{
+  background: url('images/image_part_005.png');
+}
+#image_part_005:hover{
+  background: url('images/hover_image_part_005.jpg');
+}
+
+#image_part_006{
+  background: url('images/image_part_006.png');
+}
+#image_part_006:hover{
+  background: url('images/hover_image_part_006.jpg');
+}
+
+#image_part_007{
+  background: url('images/image_part_007.png');
+}
+#image_part_007:hover{
+  background: url('images/hover_image_part_007.jpg');
+}
+
+#image_part_008{
+  background: url('images/image_part_008.png');
+}
+#image_part_008:hover{
+  background: url('images/hover_image_part_008.jpg');
+}
+
+/*  */
+.container {
+width: 700px;
+max-width: 80%;
+background-color: #0A4290;
+border-radius: 5px;
+padding: 10px;
+box-shadow: 0 0 10px 2px;
+}
+
+.btn-grid {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  gap: 10px;
+  margin: 20px 0;
+}
+
+
+.btn {
+
+  border: 1px solid whitesmoke;
+  background-color: #0A4290;
+  border-radius: 5px;
+  padding: 5px 10px;
+  color: white;
+  outline: none;
+}
+#question-container{
+    color: white;
+    text-align: center;
+    font-family: Copperplate,Copperplate Gothic Light,fantasy; 
+}
+
+.btn:hover {
+  border-color: black;
+}
+
+#quiz-img{
+    padding: 10px;
+    width: 700px;
+    max-width: 80%;
+
+}

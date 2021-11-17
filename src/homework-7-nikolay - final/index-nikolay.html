@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style-nikolay.css">
+    <script type="text/javascript" src="script-nikolay.js" defer></script>
+
+
+</head>
+<body>
+
+
+    <div class="image-container">
+        <div id="answer-box">
+            Къде е Уоли (Waldo)? Кликнете на картинката с него.
+        </div>
+        <div class="img-grid"> 
+            <div onclick="checkImage(1)" class="img-piece" id ="image_part_001"></div>
+            <div onclick="checkImage(2)" class="img-piece" id ="image_part_002"></div>
+            <div onclick="checkImage(3)" class="img-piece" id ="image_part_003"></div>
+            <div onclick="checkImage(4)" class="img-piece" id ="image_part_004"></div>
+            <div onclick="checkImage(5)" class="img-piece" id ="image_part_005"></div>
+            <div onclick="checkImage(6)" class="img-piece" id ="image_part_006"></div>
+            <div onclick="checkImage(7)" class="img-piece" id ="image_part_007"></div>
+            <div onclick="checkImage(8)" class="img-piece" id ="image_part_008"></div>
+        </div>
+
+    </div>
+
+    <div >
+        <img id="quiz-img" src="images/stani-bogat.png" alt="">
+    </div>
+    <div class="container">
+        <div id="question-container" class="hide">
+          <div id="question">Зеленият компютърен код, с който е представена Матрицата в началото на филма, всъщност представлява сканирани:</div>
+          <div id="answer-buttons" class="btn-grid">
+            <button class="btn" id="btn-a" onclick="checkQuizAnswer(1)">A. Глави от Корана</button>
+            <button class="btn" id="btn-b" onclick="checkQuizAnswer(2)">B. Рецепти за суши</button>
+            <button class="btn" id="btn-c" onclick="checkQuizAnswer(3)">С. Глоби за превишена скорост</button>
+            <button class="btn" id="btn-d" onclick="checkQuizAnswer(4)">D. Упътвания за пералня</button>
+          </div>
+        </div>
+
+</body>
+</html>
